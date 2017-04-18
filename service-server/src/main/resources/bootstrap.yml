@@ -1,13 +1,13 @@
 spring:
   application:
-    name: demo.cloud.config         # 指定配置中心配置文件的{application}（也就是配置中心的属性文件的基础名称）
+    name: demo.cloud.config         # 指定配置中心配置文件的{application}
   cloud:
     config:
-      #uri: http://127.0.0.1:4100/  # 指定配置中心的地址（它不能配置在application.yml）
+      #uri: http://127.0.0.1:4100/  # 指定配置中心的地址
       profile: prod                # 指定配置中心配置文件的{profile}
-      label: master                # 指定配置中心配置文件的{label}（即git分支）
+      label: master                # 指定配置中心配置文件的{label}
       discovery:
-        enabled: true                    # 使用注册中心里面已注册的配置中心（默认为false）
+        enabled: true                    # 使用注册中心里面已注册的配置中心
         serviceId: jadyer-config-server  # 指定配置中心注册到注册中心的serviceId
 
 eureka:
