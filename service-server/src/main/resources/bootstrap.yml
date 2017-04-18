@@ -1,6 +1,6 @@
 spring:
   application:
-    name: xuanyu-config # 指定配置中心配置文件的{application}（也就是配置中心的属性文件的基础名称）
+    name: demo.cloud.config         # 指定配置中心配置文件的{application}（也就是配置中心的属性文件的基础名称）
   cloud:
     config:
       #uri: http://127.0.0.1:4100/  # 指定配置中心的地址（它不能配置在application.yml）
