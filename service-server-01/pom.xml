@@ -7,7 +7,7 @@
         <artifactId>demo-cloud-08-config</artifactId>
         <version>1.1</version>
     </parent>
-    <artifactId>service-server</artifactId>
+    <artifactId>service-server-01</artifactId>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>

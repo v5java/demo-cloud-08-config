@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: demo.cloud.config
+  cloud:
+    config:
+      #uri: http://127.0.0.1:4100/
+      profile: prod
+      label: master
+      discovery:
+        enabled: true
+        serviceId: jadyer-config-server
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:1100/eureka/
